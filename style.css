@@ -1,0 +1,260 @@
+/*
+Theme Name: RandomHappinessProductions
+Author: Javier Sánchez Escribano
+Author URI: https://www.instagram.com/javihumphrey23/
+Description: Plantilla de Random Happiness Productions
+Version: 1.0
+License: CopyRight
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: randomhappinessproductions
+
+*/
+
+
+/* General */
+body{
+	/* background-color: #F48D2C white; */
+	font-family: 'Crete Round', serif;
+	background: linear-gradient(#F2EBDA, #9DA6A2);
+	text-decoration: none;
+
+}
+a:link 
+{ 
+text-decoration:none; 
+} 
+
+h2{
+	background-color: #FF7125; 
+	padding: 10px;
+	border-bottom:1px solid black ;
+}
+
+#eventos{
+	background-color: #FF7125; 
+	padding: 10px;
+	border-bottom:1px solid black ;
+}
+
+#eventos-ocul{
+      display: none;
+}
+
+#main{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+
+/* Header */
+header{
+	background-color: /*#E56F1B*/black;
+	margin-bottom: -16px;
+}
+
+#enlaces a{
+color:black;
+}
+
+#enlaces a:hover{
+color:white;
+}
+
+#textoHorizonte{
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    font-size: 4vw;
+    text-align: center;
+    margin-top: 20%;
+}
+
+#textoHorizonte:hover{
+	color:red;
+}
+
+#enlaces > a:not(:first-child) /*modifica los elementos de la lista exceptuando el último */ {
+		margin-left: 12px;
+	}
+
+#imgprob:hover{
+	-ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    cursor: pointer;
+
+}
+
+#imghor:hover{
+	background-color: black;
+	opacity: 0.5; 
+
+}
+#imagen-cabecera{
+	margin-bottom: -15px;
+}
+
+
+#actual{
+	background-color: #FF7125;
+}
+	#actual a:hover{
+		color: white;
+	}
+
+
+.social-header{
+
+	margin-top: 12px;
+	text-decoration: none;
+}
+
+
+	.social-header a{
+
+		color:white;
+		align-items: right;
+	}
+	.social-header a:hover{
+		color: #FF7125;
+	}
+li {
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.menu-bar{
+	background-color: /*#FF9740*/#E8E1DB;
+	margin-top: 10px;
+
+}
+
+	.menu-bar a{
+		color: black;
+		font-size: 20px;
+		font-style: bold;
+		padding: 20px;
+	}
+
+	.menu-bar a:hover{
+		color:#FF7125;
+	}
+
+.menu-list{
+	padding: 12px 0; 
+	margin-bottom: 0;
+}	
+	.menu-list > li:not(:last-child) /*modifica los elementos de la lista exceptuando el último */ {
+		margin-right: 40px;
+	}
+
+/* Botón enviar */
+
+#boton-enviar{
+	background-color: #FF7125;
+	border: 2px solid white;
+    border-radius: 7px;
+    color: white;
+}
+
+	#boton-enviar:hover{
+		color: black;
+		cursor: pointer;
+	}
+/* Content */
+
+#separaColumnas{
+	border-right-style: dotted;  
+}
+
+#separaColumnasFormulario{
+	border-right-style: ridge;  
+}
+/* Footer */ 
+footer{
+	margin-top: 50px;
+	padding: 20px;
+	background-color: #FF7125;
+}
+
+#galeria li{
+	display: inline;
+	
+}
+
+#galeria img{
+	margin: 10px 10px 10px 10px;
+}
+
+#enlaceEspec {
+	background-color: #FF7125;
+	border: 2px solid white;
+    border-radius: 7px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: white;
+}
+
+#enlaceEspec :hover{
+	color: black;
+	cursor: pointer;
+}
+
+
+#enlaceEntradas {
+	background-color: #FF7125;
+	border: 1px solid white;
+    border-radius: 7px; 
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: white;
+}
+
+#enlaceEntradas :hover{
+	color: black;
+	cursor: pointer;
+
+}
+
+/* Estilo cookies */ 
+
+#overbox3 {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999999;
+    display: block;
+}
+#infobox3 {
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+    height: 58px;
+    width: 100%;
+    text-align:center;
+    background-color: #FF7125;
+}
+#infobox3 p {
+    line-height:58px;
+    font-size:14px;
+    text-align:center;
+    font-family:;
+}
+#infobox3 p a {
+    margin-right:5px;
+    color: white;
+
+}
+#infobox3 p :hover{
+    color: black;
+    
+}
